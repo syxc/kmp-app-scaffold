@@ -5,6 +5,20 @@
 这是一个 `Kotlin Multiplatform Mobile` 最小可用示例。  
 实际项目中根据实际情况组织 iOS 和 Android 代码仓库结构即可。
 
+```txt
+├── LICENSE
+├── README.md
+├── build.gradle.kts
+├── gradle
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── kmp-app-android-scaffold
+├── kmp-app-ios-scaffold
+├── kmp-app-shared
+└── settings.gradle.kts
+```
+
 官方示例：[kmm-production-sample](https://github.com/Kotlin/kmm-production-sample)
 
 编译环境  
