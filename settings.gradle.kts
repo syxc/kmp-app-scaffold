@@ -16,6 +16,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "app-kmp-scaffold"
+rootProject.name = "kmp-app-scaffold"
 include(":kmp-app-shared")
 include(":kmp-app-android-scaffold")

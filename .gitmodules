@@ -1,9 +1,9 @@
 [submodule "kmp-app-shared"]
 	path = kmp-app-shared
-	url = https://github.com/syxc/kmp-app-shared.git
+	url = git@github.com:syxc/kmp-app-shared.git
 [submodule "kmp-app-android-scaffold"]
 	path = kmp-app-android-scaffold
-	url = https://github.com/syxc/kmp-app-android-scaffold.git
+	url = git@github.com:syxc/kmp-app-android-scaffold.git
 [submodule "kmp-app-ios-scaffold"]
 	path = kmp-app-ios-scaffold
-	url = https://github.com/syxc/kmp-app-ios-scaffold.git
+	url = git@github.com:syxc/kmp-app-ios-scaffold.git
