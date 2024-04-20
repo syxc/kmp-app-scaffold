@@ -4,16 +4,10 @@ root = true
 [*]
 charset = utf-8
 end_of_line = lf
+indent_size = 2
 indent_style = space
-indent_size = 4
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-[*.{yml,yaml,md}]
-indent_size = 2
-
-[*.{js,ts,json,vue,jsx,html,css}]
-indent_size = 2
 
 [*.java]
 ij_java_use_single_class_imports = true
@@ -22,9 +16,13 @@ ij_java_use_single_class_imports = true
 ij_kotlin_imports_layout = *
 ij_kotlin_allow_trailing_comma = false
 ij_kotlin_allow_trailing_comma_on_call_site = false
+ktlint_code_style = android_studio
+ktlint_standard_property-naming = disabled
+ktlint_standard_backing-property-naming = disabled
+ktlint_function_naming_ignore_when_annotated_with = Composable, Test
 
-[*.md]
+[*.{md,markdown}]
 trim_trailing_whitespace = false
 
-[{Makefile,.SRCINFO}]
+[Makefile]
 indent_style = tab
